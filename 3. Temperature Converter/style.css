@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4d9d9;
+}
+
+.main {
+  background-color: #ffd7d7;
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 21%;
+  height: 330px;
+}
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+  margin-left: 10%;
+}
+
+#inputtemp {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+#result1 {
+  margin-left: 10px;
+}
+#result {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+select {
+  margin-left: 0px;
+  width: 130px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  align-items: center;
+}
+
+#temptypel {
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  background-color: #ff9100;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 27%;
+  cursor: pointer;
+}
+input[type="reset"] {
+  background-color: #ff9100;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+#akash{
+  margin-left: 8.5cm;
+}
+
+#type{
+  margin-left: 1.5cm;
+}
+
+#result1{
+  margin-left: 0.7cm;
+}
+#btn{
+  margin-left: 4.3cm;
+}
+

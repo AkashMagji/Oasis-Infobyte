@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Temperature Converter</h1>
+      <div id="akash">
+      <form id="temperature" onsubmit="temp(); return false">
+        <select name="temptype" id="temptype">
+          <option value="1">Degrees</option>
+          <option value="2">COMMING SOON</option>
+        </select>
+        <input name="inputtemp" id="inputtemp" type="number" />
+        <br><br>
+        <div id="type">
+        <label id="temptypel" for="temptype">Type</label>
+        <select name="temptype" id="temptype">
+          <option value="1">Celsius</option>
+          <option value="2">Fahrenheit</option>
+        </select>
+      </div>
+        <br>
+        <div id="result2">
+        <label id="result1" for="result">Result</label>
+        <input name="result" id="result" type="number" />
+        <br />
+      </div>
+      </div>
+      <div id="btn">
+        <input value="Convert" name="outputtemp" type="submit" />
+        <input name="reset" type="reset" />
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
